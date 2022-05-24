@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body{
+  background-color: black;
+  
+}
+
+span{
+  position: absolute;
+  font-size: 30px;
+  margin-left: 39%;
+  margin-top: 55px;
+}
+
+img{
+  width: 150px; 
+  height: 150px;
+}
+
+#paragrafo{
+  position: absolute;
+  font-size: 20px;
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+button{
+  position: absolute;
+  color: black;
+  width: 70px;
+  height: 40px;
+  bottom: 5%;
+  left: 54%;
+  border-radius: 90px;
+}
+  

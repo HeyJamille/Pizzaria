@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+span{
+  position: absolute;
+  font-size: 30px;
+  margin-left: 35%;
+  margin-top: 55px;
+}
+
+img{
+  width: 150px; 
+  height: 150px;
+}
+  
+#pizzas{
+  position: relative;
+  margin-top: 3%;
+  margin-left: 33%;
+  font-size: 20px;
+  font-family: Times new roman; 
+}
+
+#bebidas{
+  position: absolute;
+  top: 30%;
+  margin-left: 64%;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+button{
+  position: absolute;
+  color: black;
+  width: 70px;
+  height: 40px;
+  bottom: 5%;
+  left: 49%;
+  border-radius: 90px;
+}
+
