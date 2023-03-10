@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Pedidos </title>
+  <link href="css/pedidos.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <section>
+    <header> Faça a sua escolha! </header>
+
+    <form class="informacoes" action="#" method="post">
+      <label for="sabor">Sabores: </label>
+      <select id="sabores" name="sabores" >
+        <option value="calabresa">Calabresa</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="frango com catupiry">Frango com Catupiry</option>  
+        <option value="mussarela">Mussarela</option>
+      </select>
+
+      <br><br>
+
+      <label for="quantidade">Quantidade: </label>
+      <select id="quantidade" name="quantidade">
+        <option value="1"> 1 </option>
+        <option value="2"> 2 </option>
+        <option value="3"> 3 </option>  
+        <option value="4"> 4 </option>
+        <option value="5"> 5 </option>
+      </select>
+      
+      <br><br>
+      
+      <label>Gostaria de adicionar bordas? </label>
+
+      <br>
+
+      <div class="opcao">
+        <input type="checkbox" id="sim" value="Sim">
+        <label for="sim">Sim</label>
+        <input type="checkbox" id="nao" value="nao">
+        <label for="nao">Não</label>
+      </div>
+
+      <br>
+
+      <label for="refrigerantes">Refrigerantes: </label>
+      <select id="refrigerantes" name="refrigerantes">
+        <option value="uva">Fanta Uva </option>
+        <option value="fanta">Fanta Laranja</option>
+        <option value="guarana">Guaraná</option>  
+        <option value="coca cola">Coca Cola</option>
+      </select>
+
+      <input type="button" id="botao" value="Enviar"></section>
+      
+    </form>
+
+    <footer> 
+      <p> &copy; 2023 PizzaWorks. Todos os direitos reservados. </p>
+    </footer>
+    
+  </section>
+
+</body>
+</html>

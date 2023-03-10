@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("/images/fundoPizza9.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section {
+    position: relative;
+    background-color: #e3ae44; 
+    height: 85vh;
+    width: 80vw;
+    margin: auto;
+    top: 4vw;
+    border-radius: 5vw;
+    overflow: hidden;
+}
+
+section form .imagem img {
+    position: absolute;
+    height: 85vh;
+    width: 50vw;
+}
+
+section form main {
+    position: absolute;
+    left: 50vw;
+    top: 10vw;
+}
+
+section form main header {
+    color: white;
+    font-size: 35px;
+    margin-left: 83px;
+}
+
+section form main .dadosPessoais {
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+section form main .dadosPessoais input {
+    display: block;
+    margin-top: 5px;
+    padding-left: 2vw;
+    height: 6vh;
+    width: 18vw;
+    border: 1px solid grey;
+    border-radius: 2vw;
+    font-size: 15px;
+    outline: 0;
+}
+
+section form main .dadosPessoais input:hover {
+    box-shadow: 0 0 1em red;
+}
+
+section form main .checkbox {
+    display: inline-block;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    font-size: 14px;
+}
+
+section form main a {
+    display: inline-block;
+    margin-left: 1vw;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+section form main .entrar {
+   margin-left: 70px;
+   margin-top: 5vh;
+}
+
+section form main .entrar input:hover {
+    background-color: #f24523;
+    color: white;
+    border: none;
+}
+
+section form main .entrar input {
+    height: 7vh;
+    width: 20vw;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 2vw;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+section form main .cadastro p{
+    margin-left: 127px;
+    margin-top: 2vh;
+    font-size: 14px;
+}
+
+section form main .cadastro a {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+section form main a:hover {
+    color: red;
+}
+
+
+

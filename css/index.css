@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("/images/fundopizza2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+section div a {
+  text-decoration: none;
+}
+
+section .menu {
+  display: flex;
+  margin-left: 60vw;
+  margin-top: 2vw;
+  font-size: 21px;
+}
+
+section .menu p {
+  padding-left: 2vw;
+}
+
+section .menu p a:hover {
+  color: #f24523;
+}
+
+section .menu img {
+  height: 3vw;
+  width: 3vw;
+  margin-top: -5px;
+  margin-left: 3vw;
+  border-radius: 2vw;
+}
+
+section .menu img:hover {
+  box-shadow: inset 0 0 1em gold, 0 0 1em red;
+  cursor: pointer;
+}
+
+section .texto {
+  position: relative;
+  background-color: #e3ae44; 
+  border-radius: 5vw;
+  width: 35vw;
+  height: 10vw;
+  left: 58vw;
+  top: 15vw;
+}
+
+section .texto:hover {
+  box-shadow: inset 0 0 1em gold, 0 0 1em red;
+  cursor: pointer;
+}
+
+section .texto a {
+  position: absolute;
+  color: white;
+  top: 2vw;
+  left: 11vw;
+  font-size: 30px;
+}
+
+section .texto a:hover {
+  color: #f24523;
+}
+
+section .texto p {
+  position: absolute;
+  color: black;
+  left: 3vw;
+  font-size: 30px;
+  top: 5vw
+}
+
+section footer {
+  position: absolute;
+  top: 41vw;
+  left: 58vw;
+  font-size: 15px;
+}
+
+section footer ul {
+  display: flex;
+  margin-left: 2vw;
+}
+
+section footer li {
+  margin-left: 1vw;
+  margin-top: 10px;
+  list-style: none;
+}
+
+section footer p {
+  margin-top: 20px;
+  margin-left: 4.5vw;
+}
+
+section footer ul img {
+  height: 35px;
+  width: 35px;
+  border-radius: 1vw;
+  margin-left: 2vw;
+}
+
+section footer ul img:hover {
+  box-shadow: inset 0 0 1em gold, 0 0 1em red;
+  cursor: pointer;
+}
+
+
+
+
+
+
+

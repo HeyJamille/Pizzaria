@@ -1,0 +1,51 @@
+/* INDEX.HTML */
+
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    body  {
+        background-image: url("/images/fundoPizza15.jpg");
+        height: 20vw;
+    }
+    section .menu {
+        margin-left: 5vw;
+        font-size: 5vw;
+    }
+    section .menu a img {
+        margin-top: 1vw;
+        height: 7vw;
+        width: 7vw;
+    }
+    section .texto {
+        width: 50vw;
+        height: 20vw;
+        left: 26vw;
+        top: 30vw;
+    }
+    section .texto a {
+        font-size: 4vw;
+        top: 4vw;
+        left: 14vw;
+    }
+    section .texto p {
+        font-size: 3.5vw;
+        top: 10vw;
+        left: 2vw;
+    }
+
+    section footer {
+        top: 70vw;
+        left: 12vw;
+        font-size: 3vw;
+    }
+    section footer ul img {
+        width: 7vw;
+        height: 7vw;
+    }
+    section footer p {
+        margin-top: 68vw;
+        font-size: 3vw;
+    }
+
+   
+}
